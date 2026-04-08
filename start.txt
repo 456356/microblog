@@ -1,0 +1,11 @@
+uvicorn main:app --reload --host 127.0.0.1 --port 8000
+
+Введите один из тестовых ключей (они уже созданы в базе при запуске):
+test (пользователь John Tester)
+demo-key-1 (пользователь Alice Dev)
+demo-key-2 (пользователь Bob Engineer)
+demo-key-3 (пользовательCharlie Tester
+
+
+тесты
+python -m pytest tests/
