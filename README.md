@@ -26,11 +26,6 @@
 - `models/common/` — конфигурация, БД, исключения, утилиты
 - `controllers/` — FastAPI контроллеры (эндпоинты)
 
-## 🏗 Как работают данные:
-- **PostgreSQL** – именованный Docker volume `pgdata` → данные сохраняются между перезапусками.
-- **Медиафайлы** – volume `media_volume` монтируется в контейнер FastAPI (запись) и в контейнер Nginx (чтение).
-- **Статика фронтенда** – папка `view` монтируется bind‑mount в Nginx (не теряется при перезапуске).
-
 ## 🚀 Развёртывание на Ubuntu 22.04 (пошаговая инструкция)
 1. Запустите: `docker compose up -d --build`
 2. Откройте: `http://localhost/` (Swagger: `http://localhost/docs`)
