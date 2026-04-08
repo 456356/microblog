@@ -1,4 +1,4 @@
-# 🐦 Microblog Backend (FastAPI + PostgreSQL + Nginx)
+# 🐦 Microblog (FastAPI + PostgreSQL + Nginx)
 Сервис микроблогов (аналог Twitter) для корпоративного использования.  
 Бэкенд реализован на **FastAPI**, данные хранятся в **PostgreSQL**,  
 статический фронтенд и медиафайлы отдаются через **Nginx**.
